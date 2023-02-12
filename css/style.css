@@ -1,0 +1,341 @@
+body {
+   font-family: 'Crimson Text', serif;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.bnner__title-made {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 26px;
+   color: #1E0606;
+   
+}
+
+.banner__title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 110%;
+   color: #1E0606;
+}
+
+.banner__number {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 200;
+   font-size: 60px;
+   line-height: 73px;
+   color: rgba(30, 6, 6, 0.05);
+}
+
+.monster__img   {
+   position: absolute;
+   width: 635.49px;
+   height: 461px;
+   left: 555px;
+   top: 142px;
+}
+
+.banner__title-button {
+   align-items: center;
+   padding: 9px 22px;
+   gap: 10px;
+   background: #000000;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+
+.banner__title-info {
+   align-items: center;
+   font-family: 'Open Sans';
+   font-style: normal;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 16px;
+   padding: 9px 22px;
+   background: #C29974;
+}
+
+.producs__title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;
+   text-transform: uppercase;
+   color: #1E0606;
+}
+
+.products__title-apparel {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background: #DBE4DB;
+}
+
+.products__title-holiday {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background: #EADDD3;
+}
+   
+   .products__title-toys {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background: #fff3eb;
+}
+      
+
+   .products__title-accsessories {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background: #D5D4E1;
+}
+
+.products__button-left {
+   border: none;
+   background: rgba(112, 187, 220, 0.2);
+}
+
+.products__button-right {
+   border: none;
+   background: rgba(112, 187, 220, 0.2);
+}
+
+.products__button-info {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #1E0606;
+}
+
+.servises__title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;
+   text-transform: uppercase;
+   color: #1E0606;
+
+}
+
+.servises__title-liston {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 34px;
+   color: #1E0606;
+   background: rgba(112, 187, 220, 0.2);
+   padding: 12px 126px;
+}
+
+.servises__title-list {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 34px;
+   color: #1E0606;
+}
+
+.servises__list-info {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #1E0606;
+}
+
+.servises__button {
+   align-items: center;
+   padding: 9px 22px;
+   gap: 10px;
+   background: #000000;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+
+.aboutus__title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;
+   text-transform: uppercase;
+   color: #1E0606;
+  
+}
+
+.aboutus__title-info {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 34px;
+   color: #1E0606;  
+}
+
+.aboutus__title-infotext {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #1E0606;
+}
+
+.aboutus__button {
+   align-items: center;
+   padding: 9px 22px;
+   gap: 10px;
+   background: #000000;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+
+.contacts__title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;
+   text-transform: uppercase;
+}
+
+.contacts__info {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #1E0606;
+}
+
+.footer {
+   background: #434343;
+}
+
+.navigation__title {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #AAAAAA;
+}
+
+.navigation-title-list {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+
+.info-title {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   ine-height: 22px;
+   color: #AAAAAA;
+}
+
+.info-title-list {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+
+.social__title {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #AAAAAA;
+}
+
+.social__title-list {
+   background: #666666;
+   border-radius: 15px;
+}
+
+.rating__caption {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+.rights__title {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+.creator__title {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #A2A2A2;
+}
+

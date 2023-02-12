@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none; 
+   }
+
+
+
+/* Оформление Header */
+
+.header {
+    background: #ffffff;
+}
+
+.header__title-list {
+    color: #1E0606;
+       }
+
+.header__title-search {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #1E0606;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 30px;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+/* Оформление Banner */
+
+.banner {
+    background:  #EEE4DB;;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto; 
+}
+
