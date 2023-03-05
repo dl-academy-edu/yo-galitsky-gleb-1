@@ -1,0 +1,95 @@
+.catalog__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 60px;
+}
+
+.catalog__title-item-one {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+    margin-left: -35px;
+    align-items: center;
+}
+
+.catalog__title-item-two {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.catalog__title-list {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.cart__title-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: -35px;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.cart__line-two {
+    display: flex;
+    gap: 20px;
+    order: 2;
+    align-self: end
+}
+
+.cart__title-item:nth-child(4) {
+    margin-left: 210px;
+}
+
+.catalog__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding-bottom: 85px;
+}
+
+.catalog__info-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-left: 170px;
+    margin-bottom: -40px;
+    position: relative;
+}
+
+.catalog__info-list {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    width: 680px;
+    height: 44px;
+    align-self: center;
+    position: relative;
+    margin-left: -120px;
+}

@@ -4,77 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Document</title>
 </head>
 <body>
-    <footer>
+    <header class="header">
+        <a class="header__logo" href="/index.html"><img src="/img/icon/logo.png" width="100px" height="52" alt="header__logo"></a>
+        <ul class="header__list">
+            <li class="header__list-item"><a href="/pages/blog.html">Blog</a></li>
+            <li class="header__list-item"><a href="/pages/catalog.html">Catalog</a></li>
+            <li class="header__list-item"><a href="/pages/contact.html">About Us</a></li>
+        </ul>
+        <ul class="header__search">
+            <li class="header__search-img"><a href="#"><img src="/img/icon/search.svg" alt=""></a></li>
+            <li class="header__search-contact"><a href="/pages/contact.html">Contact Us</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="contact">
+            <h1 class="contact__title">Contact Us</h1>
+            <ul class="contact__title-list">
+                <li class="contact__title-item-one"><a href="/index.html">Home</a></li>
+                <li class="contact__title-img"><img src="/img/icon/strelka.png" alt="strelka"></li>
+                <li class="contact__title-item-two"><a href="#">Contact Us</a></li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li><p>Name</p></li>
+                <li><form class="social__form" action="/action_page.php"><input class="social__form" type="text" id="fname"></form></li>
+            </ul>
+            <ul>
+                <li><p>Phone</p></li>
+                <li><form class="social__form" action="/action_page.php"><input class="social__form" type="text" id="fname"></form></li>
+            </ul>
+            <ul>
+                <li><p>Email</p></li>
+                <li><form class="social__form" action="/action_page.php"><input class="social__form" type="text" id="fname"></form></li>
+            </ul>
+            <ul>
+                <li><p>Message</p></li>
+                <li><form class="social__form" action="/action_page.php"><input class="social__form" type="text" id="fname"></form></li>
+            </ul>
+            <ul>
+                <li><form class="social__form" action="/action_page.php"><input class="social__form" type="checkbox" id="fname"></form></li>
+                <li><p>By clicking on the button, you consent to the processing of your personal data</p></li>
+            </ul>
+            <button class="servises__button" type="button">LEARN MORE</button>
+        </section>
+        <section>
+            <ul>
+                <li><p>Our support team are on-hand to assist with any issues you are experiencing.</p></li>
+                <li>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</li>
+                <li>An expert is waiting to help you!</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
         <section class="navigation">
-           <h5 class="navigation__title">Navigation</h5>
-           <nav class="navigation">
-            <ul>
-                <li><a class="navigation-title-list" href="#">Abaut Us</a></li>
-                <li><a class="navigation-title-list" href="#">Blog</a></li>
-                <li><a class="navigation-title-list" href="#">Disign Servise</a></li>
-                <li><a class="navigation-title-list" href="#">Featured On</a></li>
-                <li><a class="navigation-title-list" href="#">2018 Holiday Catalog</a></li>
-                <li><a class="navigation-title-list" href="#">Shop By Disigner</a></li>
-            </ul>
-            </nav>
-        </section>
-        <section class="info">
-        <h5 class="info-title">Customer Information</h5>
-            <ul>
-                <li><a class="info-title-list" href="#">Contact Us</a></li>
-                <li><a class="info-title-list" href="#">Sale Exclusions</a></li>
-                <li><a class="info-title-list" href="#">Shipping & Returns</a></li>
-                <li><a class="info-title-list" href="#">Terms & Conditions</a></li>
-                <li><a class="info-title-list" href="#">Privacy Policy</a></li>
-                <li><a class="info-title-list" href="#">Search</a></li>
-            </ul>
-        </section>
-        <section class="social">
-            <h5 class="social__title">Connect</h5>
-            <form class="social__form" action="/action_page.php">
-                <label class="social__form" for="fname"></label><br>
-                <input class="social__form" type="text" id="fname" value="Email"><br><br>
-                <input class="social__form" type="submit" value="JOIN">
-              </form>
-              <div>
+            <h5 class="navigation__title">Navigation</h5>
+            <img class="navigation__line" src="/img/Line.png" alt="Line" width="380px" height="1px">
+            <nav>
+             <ul>
+                 <li><a class="navigation-title-list" href="#">Abaut Us</a></li>
+                 <li><a class="navigation-title-list" href="#">Blog</a></li>
+                 <li><a class="navigation-title-list" href="#">Disign Servise</a></li>
+                 <li><a class="navigation-title-list" href="#">Featured On</a></li>
+                 <li><a class="navigation-title-list" href="#">2018 Holiday Catalog</a></li>
+                 <li><a class="navigation-title-list" href="#">Shop By Disigner</a></li>
+             </ul>
+             </nav>
+         </section>
+         <section class="info">
+            <h5 class="info-title">Customer Information</h5>
+            <img class="info__line" src="/img/Line.png" alt="Line" width="380px" height="1px">
                 <ul>
-                    <li><button class="social__title-list"><img src="/img/icon/f.svg" alt="Facebook»"></button></li>
-                    <li><button class="social__title-list"><img src="/img/icon/twitter.svg" alt="Twitter»"></button></li>
-                    <li><button class="social__title-list"><img src="/img/icon/Pinterest.svg" alt="Pinterest»"></button></li>
-                    <li><button class="social__title-list"><img src="/img/icon/Instagram.svg" alt="Instagram»"></button></li>
+                    <li><a class="info-title-list" href="#">Contact Us</a></li>
+                    <li><a class="info-title-list" href="#">Sale Exclusions</a></li>
+                    <li><a class="info-title-list" href="#">Shipping & Returns</a></li>
+                    <li><a class="info-title-list" href="#">Terms & Conditions</a></li>
+                    <li><a class="info-title-list" href="#">Privacy Policy</a></li>
+                    <li><a class="info-title-list" href="#">Search</a></li>
                 </ul>
-              </div>
-        </section>
-        <section class="rating">
-                    <h5 class="rating__caption">Company Rating</h5>
-                <div class="rating__group">
-                    <input class="rating__input" type="radio" name="health" id="health-1" value="1" checked>
-                    <label class="rating__star" for="health-1" aria-label="Ужасно"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-2" value="2">
-                    <label class="rating__star" for="health-2" aria-label="Сносно"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-3" value="3">
-                    <label class="rating__star" for="health-3" aria-label="Нормально"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-4" value="4">
-                    <label class="rating__star" for="health-4" aria-label="Хорошо"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-5" value="5">
-                    <label class="rating__star" for="health-5" aria-label="Отлично"></label>
-        
-                    <div class="rating__focus"></div>
+            </section>
+            <section class="social">
+                <h5 class="social__title">Connect</h5>
+                <img class="social__line" src="/img/Line.png" alt="Line" width="380px" height="1px">
+                <form class="social__form" action="/action_page.php">
+                    <input class="social__form" type="text" id="fname" value="Email">
+                    <button class="social__button" type="button">JOIN</button>
+                </form>
+                <div>
+                    <ul class="social__title-list">
+                        <li class="social__title-item"><a href="/"><img src="/img/icon/Facebook.png" alt="Facebook»"></a></li>
+                        <li class="social__title-item"><a href="/"><img src="/img/icon/Twitter.png" alt="Twitter»"></a></li>
+                        <li class="social__title-item"><a href="/"><img src="/img/icon/Pinterest.png" alt="Pinterest»"></a></li>
+                        <li class="social__title-item"><a href="/"><img src="/img/icon/Instagram.png" alt="Instagram»"></a></li>
+                    </ul>
                 </div>
-        </section>
-        <section class="rights">
-            <h5 class="rights__title">Copyright © 2018 Dlk • Design Life Kids</h5>
-        </section>
-        <section class="creator">
-            <h5><a class="creator__title" href="#">Web Design — Direct Line Development</a></h5>
-        </section>
+            </section>
+                <div><img class="f__line" src="/img/Line.png" alt="Line" width="1180px" height="1px"></div>
+            <section class="rating">
+                <h5 class="rating__caption">Company Rating</h5>
+                <div class="rating-area">
+                    <input type="radio" id="star-5" name="rating" value="5">
+                    <label for="star-5" title="Оценка «5»"></label>	
+                    <input type="radio" id="star-4" name="rating" value="4">
+                    <label for="star-4" title="Оценка «4»"></label>    
+                    <input type="radio" id="star-3" name="rating" value="3">
+                    <label for="star-3" title="Оценка «3»"></label>  
+                    <input type="radio" id="star-2" name="rating" value="2">
+                    <label for="star-2" title="Оценка «2»"></label>    
+                    <input type="radio" id="star-1" name="rating" value="1">
+                    <label for="star-1" title="Оценка «1»"></label>
+                </div>
+    </section>
+    <section class="rights">
+        <h5 class="rights__title">Copyright © 2018 Dlk • Design Life Kids</h5>
+    </section>
+    <section class="creator">
+        <h5><a class="creator__title" href="#">Web Design — Direct Line Development</a></h5>
+    </section>
+    </div>
     </footer>
 </body>
 </html>

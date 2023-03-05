@@ -4,60 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DLK</title>
-    <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <a class="heaader__logo" href="/"><img src="./img/icon/logo.png" alt="logo"  width="100" height="52"></a>
-        <nav>
-            <ul class="header__title">
-              <li class="header__title-item"><a class="header__title-list" href="/pages/blog.html">BLOG</a></li>
-              <li class="header__title-item"><a class="header__title-list" href="/pages/catalog.html">CATALOG</a></li>
-              <li class="header__title-item"><a class="header__title-list" href="/pages/contact.html">ABOUT US</a></li>
-            </ul>
-            <div>
-                <a class="header__title-search" href="/"><img src="./img/icon/search.svg" alt="search" width="21" height="21"></a>
-                <a class="header__title-search" href="/pages/contact.html">CONTACT US</a>
-            </div>
-        </nav>
+        <a class="header__logo" href="/index.html"><img src="/img/icon/logo.png" width="100px" height="52" alt="header__logo"></a>
+        <ul class="header__list">
+            <li class="header__list-item"><a href="/pages/blog.html">Blog</a></li>
+            <li class="header__list-item"><a href="/pages/catalog.html">Catalog</a></li>
+            <li class="header__list-item"><a href="/pages/contact.html">About Us</a></li>
+        </ul>
+        <ul class="header__search">
+            <li class="header__search-img"><a href="#"><img src="/img/icon/search.svg" alt=""></a></li>
+            <li class="header__search-contact"><a href="/pages/contact.html">Contact Us</a></li>
+        </ul>
     </header>
     <main>
         <section class="banner">
             <p class="banner__number">01</p>
-                <ul class="banner__number-item">
-                    <li class="banner__number-list"><a href="/"></a>-</li>
-                    <li class="banner__number-list"><a href="/"></a>-</li>
-                    <li class="banner__number-list"><a href="/"></a>-</li>
-                    <li class="banner__number-list"><a href="/"></a>-</li>
-                </ul>
-            <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
-                    <p class="bnner__title-made">Designet in Slovenia</p>
-                        <a class="banner__title-button"  href="#">EXPLORE NOW</a>
-                        <img class="monster__img" src="./img/monster.png" alt="main monster" width="635" height="461">
-                    <p class="banner__title-info" href="#">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            <ul class="banner__list">
+                <li><a href="#"><img src="/img/icon/Rectangle (active).png" alt=""></a></li>
+                <li><a href="#"><img src="/img/icon/Rectangle.png" alt=""></a></li>
+                <li><a href="#"><img src="/img/icon/Rectangle.png" alt=""></a></li>
+                <li><a href="#"><img src="/img/icon/Rectangle.png" alt=""></a></li>
+            </ul>
+            <h1 class="banner__title" >THE OOH NOO COLLECTION</h1>
+            <p class="bnner__title-made">Designet in Slovenia</p>
+            <a class="banner__title-button"  href="#">EXPLORE NOW</a>
+            <img class="banner__monster-img" src="./img/monster.png" alt="main monster" width="635" height="461">
+            <p class="banner__title-info" href="#">Free (continental) USA shipping on all orders of $100 USD or more!</p>
         </section>
         <section class="products">
-                <h2 class="products__title">CATEGORY PRODUCTS</h2>
-                <ul>
-                    <li class="products__title-apparel"><a class="products__title-list" href="/pages/catalog.html"><img src="./img/tshirt.png" alt="tshirt"><p>APPAREL KIDS</p></a></li>
-                    <li class="products__title-holiday"><a class="products__title-list" href="/pages/catalog.html"><img src="./img/socks.png" alt="socks" width="280" height="270"><p>HOLIDAY SHOP</p></a></li>
-                    <li class="products__title-toys"><a class="products__title-list" href="/pages/toys.html"><img src="./img/toys.png" alt="toys" width="280" height="270"><p>TOYS</p></a></li>
-                    <li class="products__title-accsessories"><a class="products__title-list" href="/pages/catalog.html"><img src="./img/accsessories.png" alt="skate" width="280" height="270"><p>ACCSESSORIES</p></a></li>
-                </ul>
-                    <div>
-                        <button class="products__button-left" type="button"><img src="./img/icon/left.png" alt="left" width="37" height="37"></button>
-                        <button class="products__button-right" type="button"><img src="./img/icon/right.png" alt="right" width="37" height="37"></button>
-                        <p class="products__button-info">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
-                    </div>
-        </section>
+            <h1 class="products__title">CATEGORY PRODUCTS</h1>
+            <ul class="products__title-list">
+                <li class="products__title-item"><a href="/pages/catalog.html"><img src="./img/tshirt.png" alt="tshirt"></a></li>
+                <li class="products__title-item"><a href="/pages/catalog.html"><img src="./img/socks.png" alt="socks" width="280" height="270"></a></li>
+                <li class="products__title-item"><a href="/pages/toys.html"><img src="./img/toys.png" alt="toys" width="280" height="270"></a></li>
+                <li class="products__title-item"><a href="/pages/catalog.html"><img src="./img/accsessories.png" alt="skate" width="280" height="270"></a></li>
+            </ul>
+                <button class="products__button-left" type="button" href="#"><img src="./img/icon/left.png" alt="left" width="13" height="26"></button>
+                <button class="products__button-right" type="button" href="#"><img src="./img/icon/right.png" alt="right" width="13" height="26"></button>
+             <p class="products__button-info">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
+        </section> 
         <section class="servises">
             <img class="servises__img" src="./img/wooman.jpg" alt="wooman">
-            <div>
                 <h2 class="servises__title">DELIVERY</h2>
                 <ul>
                     <li><a class="servises__title-liston" href="#">Delivery</a></li>
@@ -67,89 +63,87 @@
                 <p class="servises__list-info">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <p class="servises__list-info">What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
                 <button class="servises__button" type="button">LEARN MORE</button>
-            </div>
         </section>
         <section class="partners">
-            <ul>
-                <li><h1><img class="partners__list" src="./img/icon/mailgroup.svg" alt="mail ru group"></h1></li>
-                <li><h1><img class="partners__list" src="./img/icon/apple.svg" alt="apple"></h1></li>
-                <li><h1><img class="partners__list" src="./img/icon/estex.svg" alt="estex"></h1></li>
-                <li><h1><img class="partners__list" src="./img/icon/OWOX.svg" alt="OWOX"></h1></li>
+            <ul class="partners__list">
+                <li><img class="partners__list-item" src="./img/icon/mailgroup.svg" alt="mail ru group"></li>
+                <li><img class="partners__list-item" src="./img/icon/apple.svg" alt="apple"></li>
+                <li><img class="partners__list-item" src="./img/icon/estex.svg" alt="estex"></li>
+                <li><img class="partners__list-item" src="./img/icon/OWOX.svg" alt="OWOX"></li>
             </ul>
         </section>
-        <section class="aboutus">
-            <h2 class="aboutus__title">DISIGN LIFE KIDS</h2>
+        <section class="aboutmap">
+            <div class="aboutus">
+            <h1 class="aboutus__title">DISIGN LIFE KIDS</h1>
             <p class="aboutus__title-info">About Us</p>
             <p class="aboutus__title-infotext">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-            <button class="aboutus__button" type="button">BUY NOW</button>
+            <button class="aboutus__button" type="button">BUY NOW</button></div>
             <div class="contacts">
-                <h2 class="contacts__title">CONTACTS</h2>
+                <h1 class="contacts__title">CONTACTS</h1>
                 <p class="contacts__info">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <iframe class="contacts__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.536972032954!2d49.28814991536733!3d53.5124662699569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2zREwgQWNhZGVteSDigJQg0LrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1669237061024!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
-    <footer class="footer" id="footer">
-        <section class="navigation">
-           <h5 class="navigation__title">Navigation</h5>
-           <nav>
-            <ul>
-                <li><a class="navigation-title-list" href="#">Abaut Us</a></li>
-                <li><a class="navigation-title-list" href="#">Blog</a></li>
-                <li><a class="navigation-title-list" href="#">Disign Servise</a></li>
-                <li><a class="navigation-title-list" href="#">Featured On</a></li>
-                <li><a class="navigation-title-list" href="#">2018 Holiday Catalog</a></li>
-                <li><a class="navigation-title-list" href="#">Shop By Disigner</a></li>
-            </ul>
-            </nav>
-        </section>
-        <section class="info">
-        <h5 class="info-title">Customer Information</h5>
-            <ul>
-                <li><a class="info-title-list" href="#">Contact Us</a></li>
-                <li><a class="info-title-list" href="#">Sale Exclusions</a></li>
-                <li><a class="info-title-list" href="#">Shipping & Returns</a></li>
-                <li><a class="info-title-list" href="#">Terms & Conditions</a></li>
-                <li><a class="info-title-list" href="#">Privacy Policy</a></li>
-                <li><a class="info-title-list" href="#">Search</a></li>
-            </ul>
-        </section>
-        <section class="social">
-            <h5 class="social__title">Connect</h5>
-            <form class="social__form" action="/action_page.php">
-                <label class="social__form" for="fname"></label><br>
-                <input class="social__form" type="text" id="fname" value="Email">
-               
-              </form>
-              <div>
-                <ul>
-                    <li class="social__title-list"><a href="/"><img src="/img/icon/f.svg" alt="Facebook»"></a></li>
-                    <li class="social__title-list"><a href="/"><img src="/img/icon/twitter.svg" alt="Twitter»"></a></li>
-                    <li class="social__title-list"><a href="/"><img src="/img/icon/Pinterest.svg" alt="Pinterest»"></a></li>
-                    <li class="social__title-list"><a href="/"><img src="/img/icon/Instagram.svg" alt="Instagram»"></a></li>
-                </ul>
-              </div>
-        </section>
-        <section class="rating">
+    <footer class="footer">
+        <div class="container">
+            <section class="navigation">
+                <h5 class="navigation__title">Navigation</h5>
+                <img class="navigation__line" src="/img/Line.png" alt="Line" width="380px" height="1px">
+                <nav>
+                 <ul>
+                     <li><a class="navigation-title-list" href="#">Abaut Us</a></li>
+                     <li><a class="navigation-title-list" href="#">Blog</a></li>
+                     <li><a class="navigation-title-list" href="#">Design Servisec</a></li>
+                     <li><a class="navigation-title-list" href="#">Featured On</a></li>
+                     <li><a class="navigation-title-list" href="#">2018 Holiday Catalog</a></li>
+                     <li><a class="navigation-title-list" href="#">Shop By Designer</a></li>
+                 </ul>
+                 </nav>
+             </section>
+             <section class="info">
+                <h5 class="info-title">Customer Information</h5>
+                <img class="info__line" src="/img/Line.png" alt="Line" width="380px" height="1px">
+                    <ul>
+                        <li><a class="info-title-list" href="#">Contact Us</a></li>
+                        <li><a class="info-title-list" href="#">Sale Exclusions</a></li>
+                        <li><a class="info-title-list" href="#">Shipping & Returns</a></li>
+                        <li><a class="info-title-list" href="#">Terms & Conditions</a></li>
+                        <li><a class="info-title-list" href="#">Privacy Policy</a></li>
+                        <li><a class="info-title-list" href="#">Search</a></li>
+                    </ul>
+                </section>
+                <section class="social">
+                    <h5 class="social__title">Connect</h5>
+                    <img class="social__line" src="/img/Line.png" alt="Line" width="380px" height="1px">
+                    <form class="social__form" action="/action_page.php">
+                        <input class="social__form" type="text" id="fname" value="Email" >
+                        <button class="social__button" type="button">JOIN</button>
+                    </form>
+                    <div>
+                        <ul class="social__title-list">
+                            <li class="social__title-item"><a href="/"><img src="/img/icon/Facebook.png" alt="Facebook»"></a></li>
+                            <li class="social__title-item"><a href="/"><img src="/img/icon/Twitter.png" alt="Twitter»"></a></li>
+                            <li class="social__title-item"><a href="/"><img src="/img/icon/Pinterest.png" alt="Pinterest»"></a></li>
+                            <li class="social__title-item"><a href="/"><img src="/img/icon/Instagram.png" alt="Instagram»"></a></li>
+                        </ul>
+                    </div>
+                </section>
+                    <div><img class="f__line" src="/img/Line.png" alt="Line" width="1180px" height="1px"></div>
+                <section class="rating">
                     <h5 class="rating__caption">Company Rating</h5>
-                <div class="rating__group">
-                    <input class="rating__input" type="radio" name="health" id="health-1" value="1" checked>
-                    <label class="rating__star" for="health-1" aria-label="Ужасно"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-2" value="2">
-                    <label class="rating__star" for="health-2" aria-label="Сносно"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-3" value="3">
-                    <label class="rating__star" for="health-3" aria-label="Нормально"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-4" value="4">
-                    <label class="rating__star" for="health-4" aria-label="Хорошо"></label>
-        
-                    <input class="rating__input" type="radio" name="health" id="health-5" value="5">
-                    <label class="rating__star" for="health-5" aria-label="Отлично"></label>
-        
-                    <div class="rating__focus"></div>
-                </div>
+                    <div class="rating-area" tabindex="0">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
         </section>
         <section class="rights">
             <h5 class="rights__title">Copyright © 2018 Dlk • Design Life Kids</h5>
@@ -157,8 +151,7 @@
         <section class="creator">
             <h5><a class="creator__title" href="#">Web Design — Direct Line Development</a></h5>
         </section>
+        </div>
     </footer>
 </body>
 </html>
-
-                    

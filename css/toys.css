@@ -1,0 +1,61 @@
+.toys__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 60px;
+}
+
+.toys__title-item-one {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+    margin-left: -35px;
+    align-items: center;
+}
+
+
+
+.toys__title-item-two {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+    align-items: center;
+}
+
+.toys__title-list {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.toys__title-item-thre {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.container-filter {
+    width: 200%;
+    height: 254px;
+    margin:  0 auto;
+    padding-bottom: 0px;
+    background: rgba(125, 151, 218, 0.2);
+    padding-bottom: 150px;
+    }
