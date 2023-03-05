@@ -1,0 +1,39 @@
+.contact__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 60px;
+}
+
+.contact__title-item-one {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    display: flex;
+    margin-left: -35px;
+    align-items: center;
+}
+
+.contact__title-item-two {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.contact__title-list {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
